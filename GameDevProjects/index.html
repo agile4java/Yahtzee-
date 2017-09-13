@@ -11,19 +11,187 @@
 </head>
 <body>
     <h1>Chad Conway Assignment 2 - Yahtzee! Dice Game</h1>
-    <div>
-        <button id="drawDice" onclick="draw()">Draw Dice</button>
+    <div class="block1">
+        <div class="ib" id="leftSpacer">
+
+        </div>
+
+        <div  class="ib" id="gameControlColumn">
+            <h1>Game Play</h1>
+            <div id="instructionRow">
+                <p id="inst1"><br></p>
+                <p id="inst2"><br></p>
+            </div>
+            <div>
+                <canvas id="diceCanvas" width="560" height="120">
+                    Your browser doesn't support the HTML5 canvas tag
+                </canvas>
+            </div>
+            <div id="buttonRow">
+                <button class="dieBtn" id="hold1" onclick="holdScoreRoll(0)">Click to Keep</button>
+                <button class="dieBtn" id="hold2" onclick="holdScoreRoll(1)">Click to Keep</button>
+                <button class="dieBtn" id="hold3" onclick="holdScoreRoll(2)">Click to Keep</button>
+                <button class="dieBtn" id="hold4" onclick="holdScoreRoll(3)">Click to Keep</button>
+                <button class="dieBtn" id="hold5" onclick="holdScoreRoll(4)">Click to Keep</button>
+                <br>
+                <button id="rollDiceBtn" onclick="getRoll()">Roll Dice</button>
+                <button id="stopeAndScoreBtn" onclick="prepToScore()">Click to Stop Rolling and Score </button>
+                <button id="newGameBtn" onclick="newGame()">Start New Game</button>
+            </div>
+        </div>
+    <div class="ib" id="scoreCardColumn">
+        <h1>Score Card</h1>
+
+        <table id="upperScoreCardTable">
+            <caption><h3>Upper Section</h3></caption>
+            <colgroup>
+                <col id="column1">
+                <col id="column2">
+                <col id="column3">
+                <col id="column4">
+            </colgroup>
+            <thead  class="columnHeadingsRow">
+            <tr>
+                <th>Score Category</th>
+                <th>How to Score</th>
+                <th  id="playersName">Player</th>
+                <th>Click to Score</th>
+            <tr>
+            </thead>
+            <tr >
+                <td id="aces">Aces</td>
+                <td class="howToScore">Count and Add Only Aces</td>
+                <td id="aceScore"></td>
+                <td><button class="scoreButton" onclick="scoreUpper(0)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="twos">Twos</td>
+                <td class="howToScore">Count and Add Only Twos</td>
+                <td id="twoScore"></td>
+                <td><button class="scoreButton" onclick="scoreUpper(1)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="threes">Threes</td>
+                <td class="howToScore">Count and Add Only Threes</td>
+                <td id="threeScore"></td>
+                <td><button class="scoreButton" onclick="scoreUpper(2)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="fours">Fours</td>
+                <td class="howToScore">Count and Add Only Fours</td>
+                <td id="fourScore"></td>
+                <td><button class="scoreButton" onclick="scoreUpper(3)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="fives">Fives</td>
+                <td class="howToScore">Count and Add Only Fives</td>
+                <td id="fiveScore"></td>
+                <td><button class="scoreButton" onclick="scoreUpper(4)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="sixes">Sixes</td>
+                <td class="howToScore">Count and Add Only Sixes</td>
+                <td id="sixScore"></td>
+                <td><button class="scoreButton" onclick="scoreUpper(5)">Click to Score</button></td>
+            </tr>
+            <tr class="scoreRow">
+                <td>Total</td>
+                <td></td>
+                <td id="upperScoreBeforeBonus"></td>
+                <td>Total</td>
+            </tr>
+            <tr>
+                <td>Bonus (If total is 63 or over)</td>
+                <td class="howToScore">Score 35</td>
+                <td id="upperBonus"></td>
+                <td>Bonus</td>
+            </tr>
+            <tr class="scoreRow">
+                <td>Total Upper Section</td>
+                <td></td>
+                <td id="totalUpperScore"></td>
+                <td>Total</td>
+            </tr>
+        </table>
+
+        <table id="lowerScoreCardTable">
+            <caption><h3>Lower Section</h3></caption>
+            <colgroup>
+                <col id="column5">
+                <col id="column6">
+                <col id="column7">
+                <col id="column8">
+            </colgroup>
+            <thead  class="columnHeadingsRow">
+            <tr>
+                <th>Score Category:</th>
+                <th>How to Score</th>
+                <th  id="playersName">Player</th>
+                <th>Click to Score</th>
+            <tr>
+            </thead>
+            <tr >
+                <td id="3oak">3 of a Kind</td>
+                <td class="howToScore">Add Total of all Dice</td>
+                <td id="3oakScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(0)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="4oak">4 of a Kind</td>
+                <td class="howToScore">Add Total of all Dice</td>
+                <td id="4oakScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(1)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="fullHouse">Full House</td>
+                <td class="howToScore">Score 25</td>
+                <td id="fullHouseScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(2)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="smStraight">Small Straight</td>
+                <td class="howToScore">Score 30</td>
+                <td id="smStraightScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(3)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="lgStraight">Large Straight</td>
+                <td class="howToScore">Score 40</td>
+                <td id="lgStraightScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(4)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="yahtzee">Yahtzee!</td>
+                <td class="howToScore">Score 50</td>
+                <td id="yahtzeeScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(5)">Click to Score</button></td>
+            </tr>
+            <tr>
+                <td id="chance">Chance</td>
+                <td class="howToScore">Add Total of All Dice</td>
+                <td id="chanceScore"></td>
+                <td><button class="lowerScoreButton" onclick="lowerScore(6)">Click to Score</button></td>
+            </tr>
+            <tr class="scoreRow">
+                <td>Total of Lower Section</td>
+                <td></td>
+                <td id="lowerScore"></td>
+                <td>Total</td>
+            </tr>
+            <tr>
+                <td>Total of Upper Section</td>
+                <td class="howToScore"></td>
+                <td id="upperScoreRepeat"></td>
+                <td>Total</td>
+            </tr>
+            <tr class="scoreRow">
+                <td>Grand Total</td>
+                <td></td>
+                <td id="grandTotalScore"></td>
+                <td>Total</td>
+            </tr>
+        </table>
     </div>
-    <canvas id="diceCanvas" width="550" height="120">
-        Your browser doesn't suppoer the HTML5 canvas tag
-    </canvas>
-
-
-
-
-
-
-
+    </div>
 </body>
-
 </html>
