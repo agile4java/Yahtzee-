@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70ec4f6a-c7c5-4be2-bfd4-2a3d0df0e26a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="992">
+              <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
+              <folding>
+                <element signature="e#131#530#0" expanded="false" />
+                <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+                <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+                <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+                <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+                <element signature="n#!!block;n#newGame#0" expanded="false" />
+                <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+                <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+                <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+                <element signature="n#!!block;n#getRoll#0" expanded="false" />
+                <element signature="n#!!block;n#rollDie#0" expanded="false" />
+                <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+                <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+                <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+                <element signature="n#!!block;n#score#0" expanded="false" />
+                <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+                <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+                <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+                <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+                <element signature="n#!!block;n#drawDie#0" expanded="false" />
+                <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+                <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+                <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>50</find>
+      <find>ctx.stroke()</find>
+      <find>context</find>
+      <find>:</find>
+      <find>,</find>
+      <find>if f</find>
+      <find>score();</find>
+      <find>tally+= 0;</find>
+      <find>cells.namedItem</find>
+      <find>Empty</find>
+      <find>return false;</find>
+      <find>== -1</find>
+      <find>: -1,</find>
+      <find>= -1;</find>
+      <find>upperScore</find>
+      <find>threeOfA</find>
+      <find>(</find>
+      <find>-1</find>
+      <find>!=</find>
+      <find>scoreBtns</find>
+      <find>upperTotalBeforeBonus</find>
+      <find>);</find>
+      <find>var inst = document.getElementById(&quot;inst2&quot;);</find>
+      <find>console</find>
+      <find>class</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>(dicePosY + 50)</replace>
+      <replace>ctx</replace>
+      <replace>=</replace>
+      <replace>if</replace>
+      <replace>endOfGame();</replace>
+      <replace>return false;</replace>
+      <replace>scoreBtns[].disable = false;</replace>
+      <replace>= -1;</replace>
+      <replace>: -1,</replace>
+      <replace>upperBeforeBonus</replace>
+      <replace>chance</replace>
+      <replace>(scoreCard.</replace>
+      <replace>(-1)</replace>
+      <replace>==</replace>
+      <replace>mtBtns</replace>
+      <replace>;</replace>
+      <replace>//console</replace>
+      <replace>id</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1401" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Conway_Asngt2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameDevProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Conway_Asngt2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameDevProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Conway_Asngt2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GameDevProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="GameDevProjects" type="cbb8eebc:String" user="GameDevProjects" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70ec4f6a-c7c5-4be2-bfd4-2a3d0df0e26a" name="Default" comment="" />
+      <created>1505164549578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505164549578</updated>
+      <workItem from="1505164552422" duration="54000" />
+      <workItem from="1505164613750" duration="3362000" />
+      <workItem from="1505236582378" duration="33267000" />
+      <workItem from="1505329447084" duration="10089000" />
+      <workItem from="1505348269710" duration="17812000" />
+      <workItem from="1505434595505" duration="48000" />
+      <workItem from="1505434686206" duration="16915000" />
+      <workItem from="1505458319279" duration="1652000" />
+      <workItem from="1505926017252" duration="63000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1505236773693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505236773694</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add scoreCard&#10;Add dice and canvas to draw dice on&#10;Add game functionality including score&#10;validation&#10;Need to complete:&#10;Scoring entry&#10;Yahtzee scoring&#10;End of Game">
+      <created>1505273440100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505273440100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="83262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17860906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Add scoreCard&#10;Add dice and canvas to draw dice on&#10;Add game functionality including score&#10;validation&#10;Need to complete:&#10;Scoring entry&#10;Yahtzee scoring&#10;End of Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scoreCard&#10;Add dice and canvas to draw dice on&#10;Add game functionality including score&#10;validation&#10;Need to complete:&#10;Scoring entry&#10;Yahtzee scoring&#10;End of Game" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5184">
+          <caret line="324" column="0" lean-forward="true" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" column="26" lean-forward="false" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12800">
+          <caret line="800" column="23" lean-forward="false" selection-start-line="800" selection-start-column="23" selection-end-line="800" selection-end-column="23" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6944">
+          <caret line="434" column="23" lean-forward="true" selection-start-line="434" selection-start-column="23" selection-end-line="434" selection-end-column="23" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8466">
+          <caret line="498" column="42" lean-forward="false" selection-start-line="498" selection-start-column="42" selection-end-line="498" selection-end-column="42" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="38" lean-forward="false" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="324" column="0" lean-forward="false" selection-start-line="324" selection-start-column="0" selection-end-line="324" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#530#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#clearScoreTable#0" expanded="false" />
+            <element signature="n#!!block;n#totalScoreCard#0" expanded="false" />
+            <element signature="n#!!block;n#cardIsFull#0" expanded="false" />
+            <element signature="n#!!block;n#newGame#0" expanded="false" />
+            <element signature="n#!!block;n#prepToRoll#0" expanded="false" />
+            <element signature="n#!!block;n#enableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#disableDieBtns#0" expanded="false" />
+            <element signature="n#!!block;n#getRoll#0" expanded="false" />
+            <element signature="n#!!block;n#rollDie#0" expanded="false" />
+            <element signature="n#!!block;n#holdScoreRoll#0" expanded="false" />
+            <element signature="n#!!block;n#prepToScore#0" expanded="false" />
+            <element signature="n#!!block;n#check4Yahtzee#0" expanded="false" />
+            <element signature="n#!!block;n#score#0" expanded="false" />
+            <element signature="n#!!block;n#scoreUpper#0" expanded="false" />
+            <element signature="n#!!block;n#lowerScore#0" expanded="false" />
+            <element signature="n#!!block;n#endOfGame#0" expanded="false" />
+            <element signature="n#!!block;n#updateScoreView#0" expanded="false" />
+            <element signature="n#!!block;n#drawDie#0" expanded="false" />
+            <element signature="n#!!block;n#testFillUpper#0" expanded="false" />
+            <element signature="n#!!block;n#testFillLower#0" expanded="false" />
+            <element signature="n#!!block;n#testRollYahtzee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="104" column="25" lean-forward="false" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

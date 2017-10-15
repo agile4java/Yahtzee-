@@ -10,6 +10,12 @@
 
 </head>
 <body>
+    <button class="test" id="fillUpperScoreSection" onclick="testFillUpper()">
+        Fill Upper Score Section</button>
+    <button class="test" id="fillLowerScoreSection" onclick="testFillLower()">
+        Fill Lower Score Section Except Yahtzee</button>
+    <button class="test" id="RollYahtzee" onclick="testRollYahtzee()">
+        Roll Yahtzee</button>
     <h1>Chad Conway Assignment 2 - Yahtzee! Dice Game</h1>
     <div class="block1">
         <div class="ib" id="leftSpacer">
@@ -34,8 +40,8 @@
                 <button class="dieBtn" id="hold4" onclick="holdScoreRoll(3)">Click to Keep</button>
                 <button class="dieBtn" id="hold5" onclick="holdScoreRoll(4)">Click to Keep</button>
                 <br>
-                <button id="rollDiceBtn" onclick="getRoll()">Roll Dice</button>
-                <button id="stopeAndScoreBtn" onclick="prepToScore()">Click to Stop Rolling and Score </button>
+                <button id="rollDiceBtn" onclick="getRoll()" disabled="disabled">Roll Dice</button>
+                <button id="stopeAndScoreBtn" onclick="prepToScore()" disabled="disabled">Click to Stop Rolling and Score </button>
                 <button id="newGameBtn" onclick="newGame()">Start New Game</button>
             </div>
         </div>
@@ -61,55 +67,55 @@
             <tr >
                 <td id="aces">Aces</td>
                 <td class="howToScore">Count and Add Only Aces</td>
-                <td id="aceScore"></td>
-                <td><button class="scoreButton" onclick="scoreUpper(0)">Click to Score</button></td>
+                <td class="scoreCell" id="aceScore"></td>
+                <td><button id="acesButton" onclick="scoreUpper(0)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="twos">Twos</td>
                 <td class="howToScore">Count and Add Only Twos</td>
-                <td id="twoScore"></td>
-                <td><button class="scoreButton" onclick="scoreUpper(1)">Click to Score</button></td>
+                <td class="scoreCell" id="twoScore"></td>
+                <td><button id="twosButton" onclick="scoreUpper(1)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="threes">Threes</td>
                 <td class="howToScore">Count and Add Only Threes</td>
-                <td id="threeScore"></td>
-                <td><button class="scoreButton" onclick="scoreUpper(2)">Click to Score</button></td>
+                <td class="scoreCell" id="threeScore"></td>
+                <td><button id="threesButton" onclick="scoreUpper(2)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="fours">Fours</td>
                 <td class="howToScore">Count and Add Only Fours</td>
-                <td id="fourScore"></td>
-                <td><button class="scoreButton" onclick="scoreUpper(3)">Click to Score</button></td>
+                <td class="scoreCell" id="fourScore"></td>
+                <td><button id="foursButton" onclick="scoreUpper(3)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="fives">Fives</td>
                 <td class="howToScore">Count and Add Only Fives</td>
-                <td id="fiveScore"></td>
-                <td><button class="scoreButton" onclick="scoreUpper(4)">Click to Score</button></td>
+                <td class="scoreCell" id="fiveScore"></td>
+                <td><button id="fivesButton" onclick="scoreUpper(4)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="sixes">Sixes</td>
                 <td class="howToScore">Count and Add Only Sixes</td>
-                <td id="sixScore"></td>
-                <td><button class="scoreButton" onclick="scoreUpper(5)">Click to Score</button></td>
+                <td class="scoreCell" id="sixScore"></td>
+                <td><button id="sixesButton" onclick="scoreUpper(5)">Click to Score</button></td>
             </tr>
             <tr class="scoreRow">
                 <td>Total</td>
                 <td></td>
-                <td id="upperScoreBeforeBonus"></td>
+                <td class="scoreCell" id="upperScoreBeforeBonus"></td>
                 <td>Total</td>
             </tr>
             <tr>
                 <td>Bonus (If total is 63 or over)</td>
                 <td class="howToScore">Score 35</td>
-                <td id="upperBonus"></td>
+                <td class="scoreCell" id="upperBonus"></td>
                 <td>Bonus</td>
             </tr>
             <tr class="scoreRow">
                 <td>Total Upper Section</td>
                 <td></td>
-                <td id="totalUpperScore"></td>
+                <td class="scoreCell" id="totalUpperScore"></td>
                 <td>Total</td>
             </tr>
         </table>
@@ -133,61 +139,61 @@
             <tr >
                 <td id="3oak">3 of a Kind</td>
                 <td class="howToScore">Add Total of all Dice</td>
-                <td id="3oakScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(0)">Click to Score</button></td>
+                <td class="scoreCell" id="3oakScore"></td>
+                <td><button id="threeOfABtn" onclick="lowerScore(0)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="4oak">4 of a Kind</td>
                 <td class="howToScore">Add Total of all Dice</td>
-                <td id="4oakScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(1)">Click to Score</button></td>
+                <td class="scoreCell" id="4oakScore"></td>
+                <td><button id="fourOfABtn" onclick="lowerScore(1)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="fullHouse">Full House</td>
                 <td class="howToScore">Score 25</td>
-                <td id="fullHouseScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(2)">Click to Score</button></td>
+                <td class="scoreCell" id="fullHouseScore"></td>
+                <td><button id="fullHouseBtn" onclick="lowerScore(2)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="smStraight">Small Straight</td>
                 <td class="howToScore">Score 30</td>
-                <td id="smStraightScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(3)">Click to Score</button></td>
+                <td class="scoreCell" id="smStraightScore"></td>
+                <td><button id="smStraightBtn" onclick="lowerScore(3)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="lgStraight">Large Straight</td>
                 <td class="howToScore">Score 40</td>
-                <td id="lgStraightScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(4)">Click to Score</button></td>
+                <td class="scoreCell" id="lgStraightScore"></td>
+                <td><button id="lgStraightBtn" onclick="lowerScore(4)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="yahtzee">Yahtzee!</td>
                 <td class="howToScore">Score 50</td>
-                <td id="yahtzeeScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(5)">Click to Score</button></td>
+                <td class="scoreCell" id="yahtzeeScore"></td>
+                <td><button id="yahtzeeBtn" onclick="lowerScore(5)">Click to Score</button></td>
             </tr>
             <tr>
                 <td id="chance">Chance</td>
                 <td class="howToScore">Add Total of All Dice</td>
-                <td id="chanceScore"></td>
-                <td><button class="lowerScoreButton" onclick="lowerScore(6)">Click to Score</button></td>
+                <td class="scoreCell" id="chanceScore"></td>
+                <td><button id="chanceBtn" onclick="lowerScore(6)">Click to Score</button></td>
             </tr>
             <tr class="scoreRow">
                 <td>Total of Lower Section</td>
                 <td></td>
-                <td id="lowerScore"></td>
+                <td class="scoreCell" id="lowerScore"></td>
                 <td>Total</td>
             </tr>
             <tr>
                 <td>Total of Upper Section</td>
                 <td class="howToScore"></td>
-                <td id="upperScoreRepeat"></td>
+                <td class="scoreCell" id="upperScoreRepeat"></td>
                 <td>Total</td>
             </tr>
             <tr class="scoreRow">
                 <td>Grand Total</td>
                 <td></td>
-                <td id="grandTotalScore"></td>
+                <td class="scoreCell" id="grandTotalScore"></td>
                 <td>Total</td>
             </tr>
         </table>
